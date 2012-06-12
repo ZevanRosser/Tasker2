@@ -1,0 +1,91 @@
+body,html{
+  font-family : sans-serif;
+  font-size : 13px; 
+}
+h2{
+  font-size : 30px;
+  margin: 0 0 5px 0;
+  padding:0px; 
+}
+div{
+  position : relative; 
+}
+input[type=text]{
+  margin : 10px 5px 10px 2px;
+  border : 1px solid #ccc;
+  width : 200px;
+  padding  : 5px;
+  width : 190px;
+}
+
+#top-ui{
+  padding : 10px; 
+  border-bottom : 1px solid #ccc;
+  overflow : hidden;
+}
+
+#add-form{ 
+  float : left; 
+}
+#task-container{
+  position : relative;
+  margin : 0 10px 10px 10px;
+  padding-bottom : 20px;
+}
+.title{
+  padding-top : 4px;
+  font-size : 20px; 
+  cursor : pointer;
+}
+#clear-all{
+  float : right; 
+  margin-left : 50px;
+  margin-top : -32px;
+}
+#save-btn{
+ float : right; 
+}
+.task-list{
+  position : absolute;
+  top : 100px;
+  padding : 10px;
+  border : 1px solid #ccc;
+  width : 300px;
+  background-color : white;
+}
+.bar{
+ margin-top : 8px;
+ width : 50px;
+ height : 10px; 
+ border : 1px solid #666;
+ float : right;
+  
+}
+.well{
+ width : 0px;
+ height : 10px;
+ background-color : #666;  
+}
+.task{
+  padding : 5px; 
+}
+.close{
+  float : right; 
+}
+.little-btn{
+  float : left;
+  cursor : pointer;
+}
+.little-btn:hover{
+  color : red;
+}
+.feedback{
+  float : left;
+  padding-top : 5px; 
+}
+.complete{
+  background-color : #c6e6c9 !important;
+}
+.complete .feedback{
+  color : #518757;
+}

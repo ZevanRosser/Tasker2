@@ -1,0 +1,38 @@
+@import url(http://fonts.googleapis.com/css?family=Gudea);
+
+body,html{
+ background-color : #c3d1db; 
+ color : #1f3e52;
+ font-family : "Gudea", serif;
+ font-size : 14px;
+}
+#top-ui{
+ background-color : white;
+ border-color : #8b959c;
+}
+input[type=text]{
+ border-color : #8b959c;
+ border-radius : 3px;
+}
+.task-list{
+ border-color : #8b959c;
+ border-radius : 3px;
+ background-color : #ebf1f5;
+}
+.feedback{
+  color : #666; 
+}
+.task{
+ border : 1px dotted #ccc;
+ margin-bottom : 5px;
+ border-radius : 5px;
+ padding : 10px;
+ background-color : white;
+}
+
+.bar{
+ border : 1px solid #9aafb8;
+}
+.well{
+ background-color : #9aafb8; 
+}
